@@ -2157,6 +2157,9 @@ ul {
   .sub-heading-2{
     font-size: 15px!important;
   }
+  .image-small{
+    width:35%!important;
+  }
 }
 @media only screen and (max-width: 991px) {
   .navbar-area-2 .nav-container .navbar-collapse .navbar-nav>li.menu-item-has-children:before {
@@ -5006,4 +5009,7 @@ ul {
 
 .card{
   background-color:none!important;
+}
+.image-small{
+  width:75%;
 }
