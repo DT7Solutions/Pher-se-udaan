@@ -2160,6 +2160,10 @@ ul {
   .image-small{
     width:35%!important;
   }
+  .about-img {
+    background-size:cover!important;
+  }
+  
 }
 @media only screen and (max-width: 991px) {
   .navbar-area-2 .nav-container .navbar-collapse .navbar-nav>li.menu-item-has-children:before {
@@ -5012,4 +5016,9 @@ ul {
 }
 .image-small{
   width:75%;
+}
+
+.about-img {
+  background: url('/assets/img/bg/about-card.png');
+  background-size: 100%;
 }
