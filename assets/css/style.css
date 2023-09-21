@@ -2160,9 +2160,9 @@ ul {
   .image-small{
     width:35%!important;
   }
-  .about-img {
+  /* .about-img {
     background-size:cover!important;
-  }
+  } */
   
 }
 @media only screen and (max-width: 991px) {
@@ -5018,7 +5018,7 @@ ul {
   width:75%;
 }
 
-.about-img {
+/* .about-img {
   background: url('/assets/img/bg/about-card.png');
   background-size: 100%;
-}
+} */
