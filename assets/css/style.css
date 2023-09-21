@@ -2137,7 +2137,20 @@ ul {
 .nav-right-part-mobile {
   display: none;
 }
-
+@media (max-width:576px){
+  .fotter-img{
+    margin-bottom: 30px!important;
+  }
+  .footer-bottom {
+    border-top: none!important;
+  }
+  .gap{
+    margin-bottom: 20px!important;
+  }
+  .gap-top{
+    margin-top: 20px!important;
+  }
+}
 @media only screen and (max-width: 991px) {
   .navbar-area-2 .nav-container .navbar-collapse .navbar-nav>li.menu-item-has-children:before {
     background: var(--heading-color);
@@ -3231,9 +3244,9 @@ ul {
   background-size: 100% 100% !important;
 }
 
-.about-thumb-wrap.after-shape {
+/* .about-thumb-wrap.after-shape {
   margin-right: 30px;
-}
+} */
 
 .about-thumb-wrap.after-shape:after {
   content: "";
@@ -3806,7 +3819,8 @@ ul {
 
 /************* single-faq-inner ************/
 .single-faq-inner {
-  border: 1px solid #DFDFDF;
+  /* border: 1px solid #DFDFDF; */
+  border-bottom: 2px solid #6452A2;
   padding: 22px 28px;
   border-radius: 7px;
   margin-bottom: 20px;
@@ -3829,18 +3843,20 @@ ul {
   font-size: 20px;
   cursor: pointer !important;
   position: relative;
-  color: var(--heading-color);
+  /* color: var(--heading-color); */
+  color:#563B56!important;
 }
 
 .single-faq-inner .card-header button i {
   position: absolute;
   right: 0;
   padding-top: 3px;
-  color: var(--main-color);
+  /* color: var(--main-color); */
+  /* content:\f078; */
 }
 
 .single-faq-inner .card-header button.collapsed i {
-  color: #9CA6B6;
+  color: #6452A2!important;
 }
 
 .single-faq-inner .card-body {
@@ -4719,7 +4735,7 @@ ul {
 ---------------------------------------------------*/
 .footer-area {
   position: relative;
-  padding-top: 90px;
+  padding-top: 60px;
 }
 
 .footer-area .widget {
@@ -4859,7 +4875,8 @@ ul {
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(0, 33, 71, 0.15);
+  border-top: 2px solid rgba(0, 33, 71, 0.15);
+  /* border-top: 1px solid #353434; */
   padding: 25px 0;
   position: relative;
   z-index: 2;
@@ -4930,4 +4947,46 @@ ul {
   font-size: 23px;
   letter-spacing: 0.92px;
   line-height: normal;
+}
+.footer-content{
+  
+  font-weight: 400;
+  color: #353434;
+  font-size: 16px;
+  letter-spacing: 0.64px;
+  line-height: 35px;
+}
+
+.content-thinkmates{
+  font-weight: 400;
+  color: #563b56!important;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 28.2px;
+  text-align: justify!important;
+}
+
+.content-tdh{
+  font-weight: 400;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0.8px;
+  line-height: 38.2px;
+  text-align: justify!important;
+}
+
+
+.border-bottom-5{
+  border-bottom: 2px solid #EBB4C0;
+  width:350px;
+}
+
+.border-bottom-4{
+  border-bottom: 2px solid #EBB4C0;
+  width:350px;
+
+}
+
+.card{
+  background-color:none!important;
 }
