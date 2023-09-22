@@ -565,6 +565,7 @@ ul {
   box-shadow: none;
 }
 
+
 .btn:after {
   content: "";
   background: #EEBD05;
@@ -2160,10 +2161,18 @@ ul {
   .image-small{
     width:35%!important;
   }
+  .logo-middle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
   /* .about-img {
     background-size:cover!important;
   } */
-  
+  .text---center{
+    text-align: center!important;
+  }
 }
 @media only screen and (max-width: 991px) {
   .navbar-area-2 .nav-container .navbar-collapse .navbar-nav>li.menu-item-has-children:before {
