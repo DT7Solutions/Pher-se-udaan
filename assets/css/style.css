@@ -2173,6 +2173,13 @@ ul {
   .text---center{
     text-align: center!important;
   }
+  .text-seventy{
+    width:100%!important;
+
+  }
+  .pd-bottom-100 {
+    padding-bottom: 60px!important;
+  }
 }
 @media only screen and (max-width: 991px) {
   .navbar-area-2 .nav-container .navbar-collapse .navbar-nav>li.menu-item-has-children:before {
@@ -5032,3 +5039,10 @@ ul {
   background-size: 100%;
 } */
 
+.text-align{
+  text-align: justify;
+
+}
+.text-seventy{
+  width:75%;
+}
