@@ -5050,3 +5050,78 @@ ul {
 .fa-phone:hover,.phone:hover{
   color: #FDC800!important;
 }
+
+
+/* clock */
+
+.clock {
+  height:60px;
+  
+  color: #563B56;
+  font-size: 50px;
+  font-family: sans-serif;
+  line-height:45px;
+  display: flex;
+ 
+  /*background: green;*/
+  overflow: hidden;
+}
+
+/* .clock::before, .clock::after {
+  content: '';
+  width: 280px;
+  height:30px;
+  background: linear-gradient(to top, transparent, black);
+  position: absolute;
+  z-index: 2;
+} */
+.clock::after {
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent, black);
+}
+
+.clock{
+ 
+  border: 5px solid #0000;
+}
+
+.clock > div {
+  display: flex;
+}
+
+.tick {
+  line-height:43px;
+}
+
+.tick-hidden {
+  opacity: 0;
+}
+
+.move {
+  animation: move linear 1s infinite;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(-20vh);
+  }
+}
+
+.clock .days{
+  border:5px solid #fdc800;
+}
+.clock .hours{
+  
+  border:5px solid #fdc800;
+}
+.clock .minutes{
+  
+  border:5px solid #fdc800;
+}
+.clock .seconds{
+  
+  border:5px solid #fdc800;
+}
