@@ -1147,7 +1147,7 @@ ul {
   width: 100%;
   left: 0;
   top: 0;
-  background: rgba(0, 33, 71, 0.9);
+  background: rgb(219, 80, 163,0.8)
 }
 
 .bg-overlay .container {
@@ -5158,6 +5158,9 @@ ul {
  
     
   }
+  .youtube-video{
+    height:200px!important;
+  }
   .whatsapp{
     right: 6%!important;
     bottom: 14%!important;
@@ -5206,4 +5209,8 @@ ul {
   bottom: 13%;
   z-index: 99;
 
+}
+.youtube-video{
+  height:300px;
+  margin-top:20px;
 }
