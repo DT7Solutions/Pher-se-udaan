@@ -5247,8 +5247,8 @@ ul {
 
 .search-icon {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 45%;
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
@@ -5257,8 +5257,9 @@ ul {
 .single-gallery-inner:hover .search-icon {
   opacity: 2;
   color:#FDC800!important;
-  background-color: #fff;
-  padding: 10px;
+  background-color:#6452A2;
+  padding: 20px;
+  border-radius:50%;
   
 }
 .portfolio-item {
