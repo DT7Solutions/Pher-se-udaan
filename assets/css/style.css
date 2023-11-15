@@ -933,7 +933,7 @@ ul {
     ## Breadcumb 
 ------------------------------------------*/
 .breadcrumb-area {
-  padding: 282px 0 125px;
+  padding: 125px 0 125px;
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
@@ -5213,4 +5213,110 @@ ul {
 .youtube-video{
   height:300px;
   margin-top:20px;
+}
+
+
+/* maginfic pop up */
+
+/* Add this CSS to your existing styles */
+/* .search-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  color: #fff;
+  font-size: 24px;
+  display: none;
+  z-index: 2;
+}
+
+.thumb:hover .search-icon {
+  display: block;
+} */
+
+.single-gallery-inner {
+  position: relative;
+  overflow: hidden;
+}
+
+.single-gallery-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.single-gallery-inner:hover .search-icon {
+  opacity: 2;
+  color:#FDC800!important;
+  background-color: #fff;
+  padding: 10px;
+  
+}
+.portfolio-item {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  
+ 
+
+  
+  
+  
+  
+  
+}
+.portfolio-item:hover .portfolio-item__over {
+  opacity: 1;
+}
+.portfolio-item .portfolio-item__over {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  padding: 33px 26px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background: rgba(27, 34, 45, 0.62);
+  
+}
+.portfolio-item:hover .portfolio-item__over .details-btn {
+  opacity: 1;
+  -webkit-transition-delay: 0.35s;
+  -o-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+  -webkit-transform: translate(0);
+  -ms-transform: translate(0);
+  transform: translate(0);
+}
+.portfolio-item.portfolio-item__over .details-btn {
+  opacity: 1;
+  -webkit-transition-delay: 0.35s;
+  -o-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+  -webkit-transform: translate(0);
+  -ms-transform: translate(0);
+  transform: translate(0);
 }

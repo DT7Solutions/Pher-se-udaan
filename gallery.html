@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="./assets/css/vendor.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<!-- Magnific Popup -->
+<link rel="stylesheet" href="assets/css/magnific-popup.css">
+<script src="assets/js/magnific-popup.min.js"></script>
 
 </head>
 
@@ -41,106 +47,10 @@
     <!-- search popup end-->
     <div class="body-overlay" id="body-overlay"></div>
 
-    <!-- navbar start -->
-    <div class="navbar-area">
-        <!-- navbar top start -->
-        <div class="navbar-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 text-md-left text-center">
-                        <ul>
-                            <li>
-                                <p><i class="fa fa-map-marker"></i> 2072 Pinnickinick Street, WA 98370</p>
-                            </li>
-                            <li>
-                                <p><i class="fa fa-envelope-o"></i> info@website.com</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="topbar-right text-md-right text-center">
-                            <li class="social-area">
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <nav class="navbar bg-white navbar-area-1 navbar-area navbar-expand-lg">
-            <div class="container nav-container">
-                <div class="responsive-mobile-menu">
-                    <button class="menu toggle-btn d-block d-lg-none" data-target="#edumint_main_menu"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icon-left"></span>
-                        <span class="icon-right"></span>
-                    </button>
-                </div>
-                <div class="logo">
-                    <a href="index.html"><img src="assets/img/logo.png" alt="img"></a>
-                </div>
-                <div class="nav-right-part nav-right-part-mobile">
-                    <a class="signin-btn" href="signin.html">Sign In</a>
-                    <a class="btn btn-base" href="signup.html">Sign Up</a>
-                    <a class="search-bar" href="#"><i class="fa fa-search"></i></a>
-                </div>
-                <div class="collapse navbar-collapse" id="edumint_main_menu">
-                    <ul class="navbar-nav menu-open">
-                        <li class="menu-item-has-children current-menu-item">
-                            <a href="#">Home</a>
-                            <ul class="sub-menu">
-                                <li><a href="index.html">Home 01</a></li>
-                                <li><a href="index-2.html">Home 02</a></li>
-                                <li><a href="index-3.html">Home 03</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Course</a>
-                            <ul class="sub-menu">
-                                <li><a href="course.html">Course</a></li>
-                                <li><a href="course-details.html">Course Single</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Pages</a>
-                            <ul class="sub-menu">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="event.html">Event</a></li>
-                                <li><a href="event-details.html">Event Details</a></li>
-                                <li><a href="team.html">Instructor</a></li>
-                                <li><a href="team-details.html">Instructor Details</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="signin.html">Sign In</a></li>
-                                <li><a href="signup.html">Sign Up</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Blog</a>
-                            <ul class="sub-menu">
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-grid.html">Blog Grid</a></li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="nav-right-part nav-right-part-desktop">
-                    <a class="signin-btn" href="signin.html">Sign In</a>
-                    <a class="btn btn-base" href="signup.html">Sign Up</a>
-                    <a class="search-bar" href="#"><i class="fa fa-search"></i></a>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <!-- navbar end -->
+   
 
     <!-- breadcrumb start -->
-    <div class="breadcrumb-area bg-overlay" style="background-image:url('assets/img/bg/3.png')">
+    <div class="breadcrumb-area bg-overlay" style="background-image:url('assets/img/bg/phirse-udaan-event-image.png')">
         <div class="container">
             <div class="breadcrumb-inner">
                 <div class="section-title mb-0 text-center">
@@ -156,72 +66,122 @@
     <!-- breadcrumb end -->
 
     <!-- team area start -->
-    <div class="team-area pd-top-120 pd-bottom-90">
+    <div class="team-area pd-top-120 pd-bottom-90" style="background-color:#FFF9F2!important;">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6">
                     <div class="single-gallery-inner">
-                        <div class="thumb">
-                            <img src="assets/img/gallery/1.png" alt="img">
+                        <div class=" portfolio-item">
+                            <img src="assets/img/gallery/gallery-one.png"  alt="img">
+                            <div class="portfolio-item__over">
+                                <a class="details-btn search-icon popup-link"  href="assets/img/gallery/gallery-one.png"><i class="fa fa-search mfp-open"></i></a>
+                               
+                            </div>
                         </div>
-                        <div class="details">
-                            <span>Consetetur Sadipscing</span>
-                            <h4><a href="#">Furus fermentum </a></h4>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-gallery-inner">
+                        <div class="portfolio-item">
+                            <img src="assets/img/gallery/gallery-two.png" alt="img">
+                            <div class="portfolio-item__over">
+                                <a class="details-btn search-icon popup-link" href="assets/img/gallery/gallery-two.png"><i class="fa fa-search mfp-open"></i></a>
+                               
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-gallery-inner">
+                        <div class="portfolio-item">
+                            <img src="assets/img/gallery/gallery-three.png" alt="img">
+                            <div class="portfolio-item__over">
+                                <a class="details-btn search-icon popup-link" href="assets/img/gallery/gallery-three.png"><i class="fa fa-search mfp-open"></i></a>
+                               
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-gallery-inner">
+                        <div class="portfolio-item">
+                            <img src="assets/img/gallery/gallery-seven.png" alt="img">
+                            <div class="portfolio-item__over">
+                                <a class="details-btn search-icon popup-link" href="assets/img/gallery/gallery-seven.png"><i class="fa fa-search mfp-open"></i></a>
+                               
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-gallery-inner">
+                        <div class="portfolio-item">
+                            <img src="assets/img/gallery/gallery-five.png" alt="img">
+                            <div class="portfolio-item__over">
+                                <a class="details-btn search-icon popup-link" href="assets/img/gallery/gallery-five.png"><i class="fa fa-search mfp-open"></i></a>
+                               
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-gallery-inner">
+                        <div class="portfolio-item">
+                            <img src="assets/img/gallery/gallery-four.png" alt="img">
+                            <div class="portfolio-item__over">
+                                <a class="details-btn search-icon popup-link" href="assets/img/gallery/gallery-four.png"><i class="fa fa-search mfp-open"></i></a>
+                               
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-gallery-inner">
+                        <div class="portfolio-item">
+                            <iframe width="560" height="399" src="https://www.youtube.com/embed/OEVW8gkFm10?si=qI76eHxcQrcpqeZO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <!-- <div class="portfolio-item__over">
+                                <a class="details-btn search-icon popup-link" href="assets/img/gallery/2.png"><i class="fa fa-search mfp-open"></i></a>
+                                
+                            </div> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-gallery-inner">
-                        <div class="thumb">
-                            <img src="assets/img/gallery/2.png" alt="img">
-                        </div>
-                        <div class="details">
-                            <span>Consetetur Sadipscing</span>
-                            <h4><a href="#">Sadip fermentum</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-gallery-inner">
-                        <div class="thumb">
-                            <img src="assets/img/gallery/3.png" alt="img">
-                        </div>
-                        <div class="details">
-                            <span>Consetetur Sadipscing</span>
-                            <h4><a href="#">Furus fermentum</a></h4>
+                        <div class="portfolio-item">
+                            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7125389364292947969?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                            <!-- <div class="portfolio-item__over">
+                                <a class="details-btn search-icon popup-link" href="assets/img/gallery/2.png"><i class="fa fa-search mfp-open"></i></a>
+                                
+                            </div> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-gallery-inner">
-                        <div class="thumb">
-                            <img src="assets/img/gallery/4.png" alt="img">
-                        </div>
-                        <div class="details">
-                            <span>Consetetur Sadipscing</span>
-                            <h4><a href="#">Fermentum Cons</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-gallery-inner">
-                        <div class="thumb">
-                            <img src="assets/img/gallery/5.png" alt="img">
-                        </div>
-                        <div class="details">
-                            <span>Consetetur Sadipscing</span>
-                            <h4><a href="#">Furus fermentum</a></h4>
+                        <div class="portfolio-item">
+                            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7127161515215900672?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                            <!-- <div class="portfolio-item__over">
+                                <a class="details-btn search-icon popup-link" href="assets/img/gallery/2.png"><i class="fa fa-search mfp-open"></i></a>
+                                
+                            </div> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-gallery-inner">
-                        <div class="thumb">
-                            <img src="assets/img/gallery/6.png" alt="img">
-                        </div>
-                        <div class="details">
-                            <span>Consetetur Sadipscing</span>
-                            <h4><a href="#">Pscing fermentum </a></h4>
+                        <div class="portfolio-item">
+                            <iframe width="560" height="375" src="https://www.youtube.com/embed/UgJ8Pl7q63k?si=u6ChnkfuiOxNtjIR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <!-- <div class="portfolio-item__over">
+                                <a class="details-btn search-icon popup-link" href="assets/img/gallery/2.png"><i class="fa fa-search mfp-open"></i></a>
+                                
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -229,202 +189,40 @@
         </div>
     </div>
     <!-- team area end -->
+ 
 
-    <!-- counter area start -->
-    <div class="counter-area bg-gray">
-        <div class="container">
-            <div class="counter-area-inner pd-top-110 pd-bottom-120"
-                style="background-image: url('assets/img/other/1.png');">
-                <div class="row">
-                    <div class="col-lg-8 mb-5 mb-lg-0">
-                        <div class="section-title mb-0">
-                            <h6 class="sub-title right-line">Funfact</h6>
-                            <h2 class="title">Strength in Numbers</h2>
-                            <p class="content pb-3">The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax
-                                quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs.
-                                Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz
-                                whangs jumpy</p>
-                            <div class="btn-counter bg-base mt-4">
-                                <h3 class="left-val align-self-center"><span class="counter">2.4</span>k+</h3>
-                                <div class="right-val align-self-center">
-                                    Successful <br> students
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 align-self-center">
-                        <ul class="single-list-wrap">
-                            <li class="single-list-inner style-box-bg">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/icon/1.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <h5><span class="counter">1200</span>+</h5>
-                                        <p>Learners & counting</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="single-list-inner style-box-bg">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/icon/2.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <h5><span class="counter">320</span>+</h5>
-                                        <p>Total courses</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="single-list-inner style-box-bg">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/icon/3.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <h5><span class="counter">1340</span>+</h5>
-                                        <p>Successful students</p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- counter area end -->
-
-    <!-- testimonial area start -->
-    <div class="testimonial-area pd-top-110 pd-bottom-120">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-lg-7">
-                    <div class="section-title text-center">
-                        <h6 class="sub-title double-line">Client Testimonials</h6>
-                        <h2 class="title">What our clients say</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="single-testimonial-inner m-0">
-                        <div class="media testimonial-author mb-4">
-                            <div class="media-left">
-                                <img src="assets/img/author/1.png" alt="img">
-                                <i class="fa fa-quote-left"></i>
-                            </div>
-                            <div class="media-body align-self-center">
-                                <h6>Eugene Freeman</h6>
-                                <p>Tincidunt</p>
-                            </div>
-                        </div>
-                        <span class="testimonial-quote"><i class="fa fa-quote-left"></i></span>
-                        <p class="mb-0">Lorem ipsum dolor sit amet, elitr, sed diam volu sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="single-testimonial-inner m-0">
-                        <div class="media testimonial-author mb-4">
-                            <div class="media-left">
-                                <img src="assets/img/author/2.png" alt="img">
-                                <i class="fa fa-quote-left"></i>
-                            </div>
-                            <div class="media-body align-self-center">
-                                <h6>Freeman Ugene</h6>
-                                <p>Tincidunt</p>
-                            </div>
-                        </div>
-                        <span class="testimonial-quote"><i class="fa fa-quote-left"></i></span>
-                        <p class="mb-0">Lorem ipsum dolor sit amet, elitr, sed diam volu sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- testimonial area end -->
-
-    <!-- footer area start -->
-    <footer class="footer-area bg-gray">
-        <div class="footer-subscribe">
-            <div class="container">
-                <form class="footer-subscribe-inner">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="single-input-inner style-border-bottom">
-                                <input type="text" placeholder="Your Full Name">
-                            </div>
-                        </div>
-                        <div class="col-lg-5">
-                            <div class="single-input-inner style-border-bottom">
-                                <input type="text" placeholder="Your Email Address">
-                            </div>
-                        </div>
-                        <div class="col-lg-2">
-                            <a class="btn btn-base" href="#">Subscribe</a>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
+     <!-- footer area start -->
+     <footer class="footer-area " style="background-color: #FBEBDA;">
+        
         <div class="footer-top">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="widget widget_contact">
-                            <h4 class="widget-title">Contact Us</h4>
-                            <ul class="details">
-                                <li><i class="fa fa-map-marker"></i> 420 Love Sreet 133/2 Street NewYork</li>
-                                <li><i class="fa fa-envelope"></i> info.contact@gmail.com</li>
-                                <li><i class="fa fa-phone"></i> 012 345 678 9101</li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-2 col-md-6 ">
+                      
+                            <a href="index.html"><img class="fotter-img" src="assets/img/about/logo.png" alt="img"></a>
+                       
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="widget widget_nav_menu">
-                            <h4 class="widget-title">Course</h4>
-                            <ul>
-                                <li><a href="course.html">Branding design</a></li>
-                                <li><a href="course.html">Ui/Ux designing </a></li>
-                                <li><a href="course.html">Make Elements</a></li>
-                                <li><a href="course.html">Business</a></li>
-                                <li><a href="course.html">Graphics design</a></li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-6 col-md-6 ">
+                        
+                           
+                          
+                                <p class="footer-content" ><span style="font-weight: 700;">Date :</span> 14th october,2023</p>
+                                <p class="footer-content w-90 mb-1"><span style="font-weight: 700;">Venue :</span>T-hub,Inorbit Mall Road, Gachibowli hyderabad.<br/><a href="https://www.google.co.in/maps/place/%E0%B0%9F%E0%B0%BF-%E0%B0%B9%E0%B0%AC%E0%B1%8D+2.0+%7C+%E0%B0%9F%E0%B1%86%E0%B0%95%E0%B1%8D%E0%B0%A8%E0%B0%BE%E0%B0%B2%E0%B0%9C%E0%B1%80+%E0%B0%B9%E0%B0%AC%E0%B1%8D+2.0/@17.4345557,78.3766436,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93e37831f177:0x32d4499d34baaa78!8m2!3d17.4345506!4d78.3792185!16s%2Fg%2F11ddx33gc9?entry=ttu" target="_blank" style="color:#6452A2;font-weight: 500;">Click Here</a></p>
+                                <p class="footer-content"><span style="font-weight: 700;">Phone :</span>+91-7842780199</p>
+                           
+                       
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="widget widget_blog_list">
-                            <h4 class="widget-title">News & Blog</h4>
-                            <ul>
-                                <li>
-                                    <h6><a href="blog-details.html">Big Ideas Of Business Branding Info.</a></h6>
-                                    <span class="date"><i class="fa fa-calendar"></i>December 7, 2021</span>
-                                </li>
-                                <li>
-                                    <h6><a href="blog-details.html">Ui/Ux Ideas Of Business Branding Info.</a></h6>
-                                    <span class="date"><i class="fa fa-calendar"></i>December 7, 2021</span>
-                                </li>
+                   
+                    <div class="col-lg-4 col-md-6 order-lg-12 text-md-right align-self-center">
+                       
+                            <ul class="social-media mt-md-0 mt-3">
+                                <li><a class="facebook" href="https://www.facebook.com/profile.php?id=61551203252669" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="linkedin" href="https://www.linkedin.com/company/phir-se-udaan/?viewAsMember=true" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a class="instagram" href="https://www.instagram.com/phirseudaan/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li><a class="twitter" href="https://twitter.com/CrsTdh76908" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                               
                             </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="widget widget_contact">
-                            <h4 class="widget-title">Twitter Feed</h4>
-                            <ul class="details">
-                                <li>
-                                    <i class="fa fa-twitter"></i>
-                                    Simply dummy brand <a href="#">https//tweets/c3l.com</a>
-                                    <div class="time">9 Hours ago</div>
-                                </li>
-                                <li>
-                                    <i class="fa fa-twitter"></i>
-                                    Simply dummy brand <a href="#">https//tweets/c7l.com</a>
-                                    <div class="time">9 Hours ago</div>
-                                </li>
-                            </ul>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
@@ -432,25 +230,35 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
+                    <div class="col-lg-4 order-lg-8 text-lg-center mt-lg-0 ">
+                  
+                        <a href="index.html"> <p style="letter-spacing:5.5px;color: #353434;">www.phirseudaan.com</p></a>
+                    </div>
                     <div class="col-lg-4 col-md-6 align-self-center">
-                        <a href="index.html"><img src="assets/img/footer-logo.png" alt="img"></a>
+                        <p style="color: #353434;">Copyright © 2023 Phir Se Udaan. All Rights Reserved | Designed By <a href="https://dt7solutions.com/" target="_blank" style="color:#6452A2;font-weight: 500;">DT7Solutions</a></p>
                     </div>
-                    <div class="col-lg-4  col-md-6 order-lg-12 text-md-right align-self-center">
-                        <ul class="social-media mt-md-0 mt-3">
-                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a class="youtube" href="#"><i class="fa fa-youtube"></i></a></li>
-                            <li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
-                        </ul>
+                   
+                    <div class="col-lg-2  col-md-6 order-lg-12 text-md-center align-self-center gap  gap-top">
+                        <p class="text-lg-center " style="color: #353434;">Strategic</p>
+                        <a href="https://magsmen.in/" target="_blank"> <img src="assets/img/author/magsmen.png" class="img-responsive image-small "  alt="magsmen"></a>
                     </div>
-                    <div class="col-lg-4 order-lg-8 text-lg-center align-self-center mt-lg-0 mt-3">
-                        <p>copyright 2022 by solverwp.com</p>
+                    <!-- <div class="col-lg-2  col-md-6 order-lg-12 text-md-center align-self-center gap  gap-top">
+                        <p class="text-lg-center " style="color: #353434;">Desgined By</p>
+                        <a href="https://dt7solutions.com/" target="_blank" style="color: #353434;font-weight: 700;">Dt7solutions</a>
+                    </div> -->
+                    <div class="col-lg-2  col-md-6 order-lg-12 text-md-center align-self-center gap ">
+                        <p class="text-lg-center " style="color: #353434;">Marketing partner</p>
+                        <a href="http://www.marketingweapons.in/" target="_blank">  <img src="assets/img/bg/weapons.png" class="img-responsive" style="height:30px" alt="marketingweapons"></a>
                     </div>
+                    
                 </div>
             </div>
         </div>
     </footer>
+    <!-- footer area end -->
+
+   
+    
     <!-- footer area end -->
 
     <!-- back to top area start -->
@@ -464,6 +272,17 @@
     <script src="./assets/js/vendor.js"></script>
     <!-- main js  -->
     <script src="./assets/js/main.js"></script>
+    <script>
+        // Initialize Magnific Popup when the document is ready
+        $(document).ready(function () {
+            $('.popup-link').magnificPopup({
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
